@@ -106,4 +106,4 @@ RUN cd arrow/cpp && \
 # Build pyarrow and move folder to custom directory
 RUN cd arrow/python && \
     python3 setup.py build_ext --with-parquet --inplace && \
-    mv -R pyarrow ${PYARROW_BUILD_PATH}/
+    mv pyarrow ${PYARROW_BUILD_PATH}/pyarrow
