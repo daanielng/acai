@@ -11,6 +11,7 @@ A base image called "ACAI" (pronounced "ahh-saa-ee") to build Python packages fo
 _Refer to `build-with-acai` folder for an example on how to use `acai`._
 
 ## Building `acai` :grapes:
+Before running multi-stage builds, you first need to build `acai` image to pull from.
 
 Run `docker build`:
 - Ensure you are within the `acai` directory.
